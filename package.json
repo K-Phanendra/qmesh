@@ -2,19 +2,11 @@
   "name": "qmesh",
   "version": "1.0.0",
   "description": "QuantumMeshEncryptionV2 - A secure cryptographic library with AES-GCM, ChaCha20-Poly1305, ECC key exchange, and Argon2 password hashing.",
-  "main": "index.js",
+  "main": "qmesh.js",
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/K-Phanendra/qmesh.git"
-  },
-  "bugs": {
-    "url": "https://github.com/K-Phanendra/qmesh/issues"
-  },
-  "homepage": "https://github.com/K-Phanendra/qmesh#readme",
   "keywords": [
     "encryption",
     "security",
@@ -31,10 +23,11 @@
     "data-protection",
     "secure-communication"
   ],
-  "author": "Your Name",
+  "author": "K-Phanendra",
   "license": "MIT",
   "dependencies": {
-    "argon2": "^0.31.2"
+    "argon2": "^0.31.2",
+    "lodash": "^4.17.21"
   },
   "engines": {
     "node": ">=14.0.0"
